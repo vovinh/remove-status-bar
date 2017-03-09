@@ -5,6 +5,16 @@ remove-status-bar
 ========
 NodeJS script to remove status bars from iOS simulator's screenshots
 
+ImageMagick® is required and it should be added to your environment PATH variable. This is the version I have :
+
+Version: ImageMagick 7.0.3-10 Q16 x64 2016-12-11 http://www.imagemagick.org
+Copyright: Copyright (C) 1999-2015 ImageMagick Studio LLC
+License: http://www.imagemagick.org/script/license.php
+Visual C++: 180040629
+Features: Cipher DPC Modules OpenMP
+Delegates (built-in): bzlib cairo flif freetype jng jp2 jpeg lcms lqr openexr pangocairo png ps rsvg tiff webp xml zlib
+
+
 Parameters
 ========
 Usage:
