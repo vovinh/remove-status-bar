@@ -17,6 +17,10 @@ $0 -d [string : required : absolute directory path that contains images] -iPhone
 
 -iPadStatusBarHeight : Height of status bar for IPad, this will be cropped from the screenshot's image. Default : 40 Pixels
 
+Examples
+========
+
+node remove-status-bar.js -d "C:\screenshots"
 
 
 
