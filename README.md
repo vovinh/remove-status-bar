@@ -9,7 +9,7 @@ Parameters
 ========
 Usage:
 -------------------------------------------------------------------
-$0 -d [string : required : absolute directory path that contains images] -iPhoneMaxWidth [number : optional : max with for iPhone images] -iPhoneStatusBarHeight [number : optional : height of IPhone status bar in pixels] -iPadStatusBarHeight [number : optional : height of IPad status bar in pixels]
+$0 *-d* [string : required : absolute directory path that contains images] *-iPhoneMaxWidth* [number : optional : max with for iPhone images] *-iPhoneStatusBarHeight* [number : optional : height of IPhone status bar in pixels] *-iPadStatusBarHeight* [number : optional : height of IPad status bar in pixels]
 
 -iPhoneMaxWidth : Use to differentiate between iPhone and iPad because screenshots of IPhone and IPad might have different status bar height. Default : 1242 Pixels
 
@@ -19,8 +19,9 @@ $0 -d [string : required : absolute directory path that contains images] -iPhone
 
 Examples
 ========
-*** node remove-status-bar.js -d "C:\screenshots"
-
+```
+node remove-status-bar.js -d "C:\screenshots"
+```
 
 
 
