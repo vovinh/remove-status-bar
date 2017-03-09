@@ -19,8 +19,7 @@ $0 -d [string : required : absolute directory path that contains images] -iPhone
 
 Examples
 ========
-***
-node remove-status-bar.js -d "C:\screenshots"
+*** node remove-status-bar.js -d "C:\screenshots"
 
 
 
